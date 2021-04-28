@@ -1,5 +1,11 @@
 h1 {
-    color: gray;
+    
+    font-size: 150p;
     text-align: center;
-    font-size: 50px;
+    background-color: goldenrod;
+    padding-top: 40px;
+    padding-bottom: 40px;
+} 
+.block1{
+    
 }
