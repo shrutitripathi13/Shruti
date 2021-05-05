@@ -1,12 +1,15 @@
+body { margin: 0px; }
+
 h1 {
     
-    font-size: 150p;
+    font-size: 53px;
     text-align: center;
-    background-color: goldenrod;
     background-image: url("img1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     padding: 200px;
-
+    font-family: 'Pangolin', cursive;
+    font-style: italic;
+    color: purple;
 } 

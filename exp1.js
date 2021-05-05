@@ -27,7 +27,7 @@ for ( let i=0; i<=timesToRepeat; i++){
 }
 console.log(answer);
 
-/* eample of a function */
+/* example of a function */
 const myHomeCity = "Salt Lake City";
 const myHomeState = "Utah";
 const MyHomeCountry = "USA";
@@ -36,6 +36,11 @@ function logOutYourHouse (city, state, country){
 }
 logOutYourHouse(myHomeCity,myHomeState,MyHomeCountry);
 
-
+/* example of NaN */
+var greeting = "Hello World";
+var something = greeting / 2;
+something;               //NaN
+Number.isNaN(something); //true
+Number.isNaN(greeting);  //false
 
 
