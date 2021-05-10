@@ -1,7 +1,6 @@
 body { margin: 0px; }
 
 h1 {
-    
     font-size: 53px;
     text-align: center;
     background-image: url("img1.jpg");
@@ -13,3 +12,14 @@ h1 {
     font-style: italic;
     color: purple;
 } 
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
+
+.button1 {
+  
+}

@@ -43,4 +43,14 @@ something;               //NaN
 Number.isNaN(something); //true
 Number.isNaN(greeting);  //false
 
+// scope is where javascript engine looks for things, and the things it's looking for are these variables,identifiers.
 
+/* example of blocl scoping */
+var teacher = "Kyle";
+{
+    let teacher = "Suzy";
+    console.log(teacher); //suzy
+}
+console.log(teacher);     //kyle
+
+// closure is when a function "remembers" a function outside of it, even if you pass that function elsewhere
