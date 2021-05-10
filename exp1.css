@@ -16,10 +16,9 @@ h1 {
 .flex-container {
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
-    
+    flex-direction: row;    
 }
 
-.button1 {
-  
+.b1{
+    text-align: center;
 }
