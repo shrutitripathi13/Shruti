@@ -54,3 +54,12 @@ var teacher = "Kyle";
 console.log(teacher);     //kyle
 
 // closure is when a function "remembers" a function outside of it, even if you pass that function elsewhere
+
+/* using this keyword */
+var workshop = {
+    teacher: "Kyle";
+    ask (question) {
+        console.log(this.teacher,question);
+    },
+};
+workshop.ask("What is implicit binding?");

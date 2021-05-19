@@ -21,4 +21,21 @@ h1 {
 
 .b1{
     text-align: center;
+    background-color: lawngreen;
+}
+.button1{
+    border: none;
+    background-color: inherit;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.b2{
+    text-align: center;
+    background-color: palevioletred;
+}
+.button2{
+    border: none;
+    background-color: inherit;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
