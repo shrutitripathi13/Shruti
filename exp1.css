@@ -39,3 +39,13 @@ h1 {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.b3{
+    text-align: center;
+    background-color: blueviolet;
+}
+.button3{
+    border: none;
+    background-color: inherit;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
