@@ -1,5 +1,9 @@
 body { margin: 0px; }
 
+.flex-container{
+    background-color: pink; /*will replace it with a background image*/
+}
+
 .row-1{
     display: flex;
     justify-content: space-evenly;
