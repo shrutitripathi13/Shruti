@@ -45,7 +45,7 @@ Number.isNaN(greeting);  //false
 
 // scope is where javascript engine looks for things, and the things it's looking for are these variables,identifiers.
 
-/* example of blocl scoping */
+/* example of block scoping */
 var teacher = "Kyle";
 {
     let teacher = "Suzy";
