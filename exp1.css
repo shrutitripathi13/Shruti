@@ -2,14 +2,30 @@ body {
      margin: 0px;
     padding: 0px;
 }
-
+.container-1{
+    display: flex;
+    width: auto;
+    flex-direction: column; 
+        
+}
 .row-1{
     display: flex;
     justify-content: center;
     padding-top: 50px;
 }
-.heading-1{
+.row-2{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+p{
+    margin: 0px;
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     letter-spacing: 6px;
+}
+h1{
+    margin: 0px;
+    font-family: inherit;
+    font-size: 77px;
 }
