@@ -29,6 +29,20 @@ h1{
     font-family: inherit;
     font-size: 77px;
 }
+.container-2{
+    
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
 li{
     float: left;
+}
+a{
+   display: block;
+   padding: 50px;
+   
+   
 }
