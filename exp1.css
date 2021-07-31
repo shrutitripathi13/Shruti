@@ -6,6 +6,7 @@ body {
     display: flex;
     width: auto;
     flex-direction: column; 
+    background-color: peachpuff;
         
 }
 .row-1{
@@ -28,20 +29,42 @@ h1{
     margin: 0px;
     font-family: inherit;
     font-size: 80px;
+    padding-bottom: 70px;
 }
 .container-2{
     width: auto;
+    margin-top: -15px;
 }
 ul{
     display: flex;
     justify-content: center;
     list-style-type: none;
+    padding-right: 25px;
+    background-color: #980147;
 }
 li{
     float: left;
-    
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #980147;
 }
+li:hover{
+    background-color: peachpuff;
+    transition-delay: 1s;
+
+}
+
 a{
    display: block;
-    
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   text-decoration: none;
+   color: peachpuff;
+   
+}
+a:hover{
+    color: #980147;
+    transition-delay: 1s;
 }
