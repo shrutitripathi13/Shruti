@@ -27,10 +27,10 @@ p{
 h1{
     margin: 0px;
     font-family: inherit;
-    font-size: 77px;
+    font-size: 80px;
 }
 .container-2{
-    
+    width: auto;
 }
 ul{
     display: flex;
@@ -39,10 +39,12 @@ ul{
 }
 li{
     float: left;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 a{
    display: block;
    padding: 50px;
-   
+
    
 }
