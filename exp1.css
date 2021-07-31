@@ -39,12 +39,9 @@ ul{
 }
 li{
     float: left;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    
 }
 a{
    display: block;
-   padding: 50px;
-
-   
+    
 }
