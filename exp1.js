@@ -63,3 +63,10 @@ var workshop = {
     },
 };
 workshop.ask("What is implicit binding?");
+
+
+
+//JavaScript from w3schools
+
+
+
