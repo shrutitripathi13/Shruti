@@ -79,3 +79,6 @@ a{
     display: flex;
     justify-content: space-around;
 }
+.row-3{
+    display: flex;
+}
