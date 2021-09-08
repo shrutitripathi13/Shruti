@@ -38,6 +38,7 @@ h1{
 .container-2{
     width: auto;
     margin-top: -16px;
+    position: relative;
 }
 ul{
     display: flex;
@@ -82,6 +83,6 @@ a{
 .row-3{
     display: flex;
 }
-.social-logo{
-    
-}
+@media only screen and (max-width: 500px) {
+   
+  }
