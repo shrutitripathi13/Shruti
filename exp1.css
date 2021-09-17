@@ -16,7 +16,7 @@ body {
 .row-1{
     display: flex;
     justify-content: center;
-    padding-top: 90px;
+    padding-top: 100px;
 }
 .row-2{
     display: flex;
@@ -83,6 +83,8 @@ a{
 .row-3{
     display: flex;
 }
-@media only screen and (max-width: 500px) {
-   
-  }
+.blog-post-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    
+}
