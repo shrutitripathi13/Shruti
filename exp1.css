@@ -11,6 +11,7 @@ body {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    border-bottom: 1px solid black;
     
 }
 .row-1{
@@ -40,6 +41,7 @@ h1{
     width: auto;
     margin-top: -16px;
     position: relative;
+    
 }
 ul{
     display: flex;
@@ -66,7 +68,7 @@ a{
    padding-top: 20px;
    padding-bottom: 20px;
    font-family: 'Montserrat', sans-serif;
-   font-weight: 300;
+   font-weight: 100;
    text-decoration: none;
    color: black;
    font-size: 16px;
@@ -91,13 +93,12 @@ a{
         font-family: 'Montserrat', sans-serif;
         background:#D7E9EB;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         height: 25vh;
         justify-content: center;
-        padding-left: 10px;
         margin-top: -16px;
         border-top: 1px solid black;
-
+        border-bottom: 1px solid black;
       
       }
     
@@ -110,6 +111,7 @@ a{
         color: #D7E9EB;
         font-size: 0;
         line-height: 1.5;
+        padding-top: 10px ;
       }
       
       .words span {
